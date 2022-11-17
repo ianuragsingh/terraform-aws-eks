@@ -10,7 +10,7 @@ module "helm_metrics_server" {
 
   # source  = "SPHTech-Platform/release/helm"
   # version = "~> 0.1.0"
-  source = "git::https://github.com/SPHTech-Platform/terraform-helm-release.git?ref=fix-defaults"
+  source = "git::https://github.com/SPHTech-Platform/terraform-helm-release.git?ref=fix-default-namespace"
 
   helm_config = local.helm_config
 }
